@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: circleci/python:3.10
 
-    working_directory: ~/CICDExample
+    working_directory: ~/DJANGO-POSTGRES-DOCKER-STARTER
 
     steps:
       # Step 1: obtain repo from github
