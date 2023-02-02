@@ -8,6 +8,7 @@ This project is created for a basic project. You can also use this project as st
 
 ## Setup
 First you need to rename .env.sample file to .env.
+
 ```cp .env.sample .env```
 
 ## Setup on Development
@@ -15,3 +16,6 @@ First you need to rename .env.sample file to .env.
 
 ## Setup on Production
 ```docker-compose -f docker-compose.prod.yml up --build```
+
+## Push to github with the one command
+```./git-deploy.sh```
