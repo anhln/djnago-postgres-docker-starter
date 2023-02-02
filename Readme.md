@@ -8,6 +8,7 @@ This project is created for a basic project. You can also use this project as st
 
 ## Setup
 First you need to rename .env.sample file to .env.
+```cp .env.sample .env```
 
 ## Setup on Development
 ```docker-compose up --build```
